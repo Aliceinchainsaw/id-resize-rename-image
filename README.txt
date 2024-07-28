@@ -6,6 +6,7 @@ Prompts for OpenAI Key: Enter your Open AI key for the API
 Directory Selection: Prompts the user to select a directory containing image files.
 Image Resizing: Resizes all images in the selected directory to 25% of their original size and saves them in a sub-directory named `resized`.
 Image Identification: Sends the resized images to the OpenAI API for analysis to identify the most prominent subject in each image.
+Image tags: OpenAI picks 3 tags for the image and writes to metadata
 File Renaming: Renames the resized images based on the descriptions provided by the OpenAI API.
 
 Libraries Required:
