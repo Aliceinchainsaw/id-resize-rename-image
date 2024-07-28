@@ -7,6 +7,7 @@ Directory Selection: Prompts the user to select a directory containing image fil
 Image Resizing: Resizes all images in the selected directory to 25% of their original size and saves them in a sub-directory named `resized`.
 Image Identification: Sends the resized images to the OpenAI API for analysis to identify the most prominent subject in each image.
 File Renaming: Renames the resized images based on the descriptions provided by the OpenAI API.
+
 Libraries Required:
 `Pillow`: For image processing and resizing.
 `requests`: For making HTTP requests to the OpenAI API.
