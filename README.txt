@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 2. Run the Script:
 Execute the script using Python:
-python whateveryounamethescript.py
+python resize-rename-image.py
 
 When prompted, enter your OpenAI API key. This key is used to authenticate your requests to the OpenAI API.
 
