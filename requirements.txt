@@ -1,8 +1,3 @@
-requirements = """
 Pillow
 requests
-tkinter
-"""
 
-with open("requirements.txt", "w") as file:
-    file.write(requirements.strip())
